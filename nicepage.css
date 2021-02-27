@@ -93,7 +93,7 @@
     white-space: pre-wrap;
     word-wrap: break-word;
     overflow: visible; }
-/*.fr-view[dir="rtl"] blockquote {
+.fr-view[dir="rtl"] blockquote {
   border-left: none;
   border-right: solid 2px #5E35B1;
   margin-right: 0;
@@ -113,7 +113,7 @@
     color: #00BCD4; }
     .fr-view blockquote blockquote blockquote {
       border-color: #43A047;
-      color: #43A047; }*/
+      color: #43A047; }
   .fr-view span.fr-emoticon {
     font-weight: normal;
     font-family: "Apple Color Emoji","Segoe UI Emoji","NotoColorEmoji","Segoe UI Symbol","Android Emoji","EmojiSymbols";
