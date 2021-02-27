@@ -1,0 +1,81 @@
+
+/* FAQ's */
+.titleFAQ {
+  margin-top: 4%;
+  text-align: center;
+  font-family: "Zilla Slab", serif;
+  font-size: 30pt;
+  margin-bottom: 0;
+}
+
+.foldingFAQ {
+  background-color: #eee;
+  color: black;
+  cursor: pointer;
+  padding: 8% 10%;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 150%;
+  transition: 0.5s;
+  font-family: "Zilla Slab", serif;
+  margin-top: 0;
+}
+
+/*Highlights drop down menus on hover*/
+.active,
+.foldingFAQ:hover {
+  background-color: #ccc;
+}
+.foldingFAQ:after {
+  content: "\02795"; /*unicode for plus sign*/
+  font-size: 60%;
+  color: #777;
+  float: right;
+  margin-left: 20%;
+  margin-right: 0;
+  border: none;
+  padding: 0;
+  margin-top: 8%;
+}
+.active:after {
+  content: "\2796";
+  margin-top: 8%;
+}
+/*Styling for text under drop down*/
+.board {
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  padding: 5% 6%;
+  background-color: #eee;
+}
+
+/*Question tabs*/
+.responsiveFAQ {
+  padding-left: 6%;
+  padding-top: 8%;
+  float: left;
+  width: 80%;
+}
+
+@media only screen and (max-width: 700%) {
+  .responsiveFAQ {
+    width: 49.99999%;
+    margin: 6% 0;
+  }
+}
+
+@media only screen and (max-width: 200%) {
+  .responsiveFAQ {
+    width: 100%;
+  }
+}
+
+.bigFAQ {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

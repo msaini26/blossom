@@ -1,3 +1,23 @@
+/* Animation for drop down menus on FAQs page */
+var fol = document.getElementsByClassName("foldingFAQ");
+var i;
+
+for (i = 0; i < fol.length; i++) {
+  fol[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var board = this.nextElementSibling;
+    if (board.style.display === "block") {
+      board.style.display = "none";
+    } else {
+      board.style.display = "block";
+    }
+  });
+}
+
+
+
+
+
 !function(t){function e(n){if(i[n])return i[n].exports;var o=i[n]={i:n,l:false,exports:{}};return t[n].call(o.exports,o,o.exports,e),o.l=true,o.exports}var i={};return e.m=t,e.c=i,e.d=function(t,i,n){if(!e.o(t,i))Object.defineProperty(t,i,{configurable:false,enumerable:true,get:n})},e.n=function(t){var i=t&&t.__esModule?function e(){return t.default}:function e(){return t};return e.d(i,"a",i),i},e.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},e.p="/Content/BundledScripts/",e(e.s=4870)}({105:function(t,e){var e=void 0,t=void 0;(function(){/*!
  * https://github.com/gilmoreorless/css-background-parser
  * Copyright © 2015 Gilmore Davidson under the MIT license: http://gilmoreorless.mit-license.org/
