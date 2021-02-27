@@ -12,7 +12,7 @@
   background-color: #eee;
   color: black;
   cursor: pointer;
-  padding: 8% 10%;
+  padding: 2% 2%;
   width: 100%;
   border: none;
   text-align: left;
@@ -58,7 +58,7 @@
   padding-left: 6%;
   padding-top: 8%;
   float: left;
-  width: 80%;
+  width: 95%;
 }
 
 @media only screen and (max-width: 700%) {
