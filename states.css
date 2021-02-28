@@ -47,18 +47,37 @@
 /*Styling for text under drop down*/
 .board {
   display: none;
-  background-color: white;
   overflow: hidden;
   transition: max-height 0.5s ease-out;
-  padding: 1% 2%;
+  padding: 1% 2% 1%;  
   background-color: #eee;
 }
 
-.insideText {
-font-size: 1.25rem;
+/* restaurant title */
+.titleText {
+font-size: 1.5rem;
   font-family: 'Roboto Slab', serif !important;
-  letter-spacing: 1%;
+  letter-spacing: 6px;
+  text-align: left;
+}
 
+/* restaurant description */
+.paragraphText {
+font-size: 1rem;
+  font-family: 'Open Sans', serif !important;
+  text-align: left;
+  margin-right: 3%;
+}
+
+/* restaurant image */
+.restImg {
+  padding: 3%;
+}
+
+.restWeb {
+  text-decoration: underline;
+  color: black;
+  font-size: 1.25rem;
 }
 
 /*Question tabs*/
