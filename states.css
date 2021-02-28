@@ -17,7 +17,7 @@
   border: none;
   text-align: left;
   outline: none;
-  font-size: 150%;
+  font-size: 2.5rem;
   transition: 0.5s;
   margin-top: 0;
   font-family: 'Playfair Display', serif !important;
@@ -50,13 +50,15 @@
   background-color: white;
   overflow: hidden;
   transition: max-height 0.5s ease-out;
-  padding: 5% 6%;
+  padding: 1% 2%;
   background-color: #eee;
 }
 
 .insideText {
-  text-align: left;
-  
+font-size: 1.25rem;
+  font-family: 'Roboto Slab', serif !important;
+  letter-spacing: 1%;
+
 }
 
 /*Question tabs*/
