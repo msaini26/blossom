@@ -3,7 +3,20 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2020 Froala Labs
  */
-
+.picbutton {
+  border-radius: 60px ;
+  height: 120px ;
+  width: 110px ;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  font-size: 1em ;
+  border: 3px solid rgb(232, 243, 133);
+  background-color: #CCB045;
+  margin-top: 30px;
+}
+.picedit {
+  margin-left: 30%;
+}
 .fr-clearfix::after {
   clear: both;
   display: block;
