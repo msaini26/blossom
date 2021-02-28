@@ -8,6 +8,6 @@ $.ajax({
 "url": "https://besttime.app/api/v1/forecasts/day?" + new URLSearchParams(params),
 "method": "GET"
 }).done(function (response) {
-    // console.log(response);
-    $("#results").html(response);
+    console.log(response);
+    $("#results").html("The peak time is " + response["analysis"]["hour_analysis"][0]["hour"]);
 });
