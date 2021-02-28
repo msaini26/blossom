@@ -15,6 +15,11 @@ for (i = 0; i < fol.length; i++) {
 }
 
 
+  function submitForm() {
+      $('form[name="form"]').submit();
+      $('input[type="text"], textarea').val('');
+      $('input[type="email"], textarea').val('');
+      }
 
 
 
