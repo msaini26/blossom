@@ -19,8 +19,9 @@
   outline: none;
   font-size: 150%;
   transition: 0.5s;
-  font-family: "Zilla Slab", serif;
   margin-top: 0;
+  font-family: 'Playfair Display', serif !important;
+
 }
 
 /*Highlights drop down menus on hover*/
@@ -51,6 +52,11 @@
   transition: max-height 0.5s ease-out;
   padding: 5% 6%;
   background-color: #eee;
+}
+
+.insideText {
+  text-align: left;
+  
 }
 
 /*Question tabs*/
