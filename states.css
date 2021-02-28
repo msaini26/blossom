@@ -107,6 +107,25 @@ font-size: 1rem;
   height: auto;
 }
 
+/* smoothie */
+#smoothie {
+  width: 20%;
+  height: 5%;
+}
+
+/* donut */
+#donut {
+  width: 20%;
+  height: 5%;
+}
+
+/* pizza */
+#pizza {
+  width: 20%;
+  height: 5%;
+}
+
+
 /*Question tabs*/
 .responsiveFAQ {
   padding-left: 6%;

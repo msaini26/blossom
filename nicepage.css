@@ -3,9 +3,10 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2020 Froala Labs
  */
+
 .picbutton {
   border-radius: 60px ;
-  height: 120px ;
+  height: 110px ;
   width: 110px ;
   margin-right: 15px;
   margin-bottom: 20px;
@@ -15,7 +16,9 @@
   margin-top: 30px;
 }
 .picedit {
-  margin-left: 30%;
+  display:flex;
+  justify-content:center;
+  margin: 5%;
 }
 .fr-clearfix::after {
   clear: both;
@@ -29079,7 +29082,7 @@ a.u-link.u-text-hover-palette-1-light-3:hover {
 .u-text-palette-1-base,
 a.u-button-style.u-text-palette-1-base,
 a.u-button-style.u-text-palette-1-base[class*="u-border-"] {
-  color: #478ac9 !important;
+  color: white !important;
 }
 a.u-button-style.u-text-palette-1-base:hover,
 a.u-button-style.u-text-palette-1-base[class*="u-border-"]:hover,
@@ -29089,7 +29092,7 @@ a.u-button-style.u-button-style.u-text-palette-1-base:active,
 a.u-button-style.u-button-style.u-text-palette-1-base[class*="u-border-"]:active,
 a.u-button-style.u-button-style.u-text-palette-1-base.active,
 a.u-button-style.u-button-style.u-text-palette-1-base[class*="u-border-"].active {
-  color: #387cbd !important;
+  color: white !important;
 }
 a.u-button-style.u-button-style.u-text-hover-palette-1-base:hover,
 a.u-button-style.u-button-style.u-text-hover-palette-1-base[class*="u-border-"]:hover,
@@ -29103,18 +29106,19 @@ a.u-button-style.u-button-style.u-button-style.u-text-active-palette-1-base[clas
 :not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-nav-link.u-text-active-palette-1-base.active,
 .u-popupmenu-items.u-text-hover-palette-1-base .u-nav-link:hover,
 .u-popupmenu-items.u-popupmenu-items.u-text-active-palette-1-base .u-nav-link.active {
-  color: #478ac9 !important;
+  /* active home page highlight */
+  color: white !important;
 }
 .u-text-palette-1-base svg,
 .u-text-hover-palette-1-base:hover svg,
 .u-text-hover-palette-1-base:focus svg {
-  fill: #478ac9;
+  fill: white;
 }
 .u-link.u-text-palette-1-base:hover {
   color: #387cbd !important;
 }
 a.u-link.u-text-hover-palette-1-base:hover {
-  color: #478ac9 !important;
+  color: black !important;
 }
 .u-text-palette-2-dark-3,
 a.u-button-style.u-text-palette-2-dark-3,
@@ -29423,7 +29427,8 @@ a.u-button-style.u-button-style.u-button-style.u-text-active-palette-2-base[clas
 :not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-nav-link.u-text-active-palette-2-base.active,
 .u-popupmenu-items.u-text-hover-palette-2-base .u-nav-link:hover,
 .u-popupmenu-items.u-popupmenu-items.u-text-active-palette-2-base .u-nav-link.active {
-  color: #db545a !important;
+  /* change highlight color */
+  color: white !important;
 }
 .u-text-palette-2-base svg,
 .u-text-hover-palette-2-base:hover svg,
@@ -31559,21 +31564,20 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-image:not(.u-shading) > .u-container-layout > a,
         a
         {
-        color: #478ac9;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > a:hover,
         .u-gradient > .u-container-layout > a:hover,
         .u-image:not(.u-shading) > .u-container-layout > a:hover,
         a:hover
         {
-        color: #387cbd;
+        color: black;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > .u-btn,
         .u-gradient > .u-container-layout > .u-btn,
         .u-image:not(.u-shading) > .u-container-layout > .u-btn,
         .u-btn
         {
-        background-color: #478ac9;
+        background-color: white;
         color: #ffffff;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > .u-btn:hover,
@@ -31581,7 +31585,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-image:not(.u-shading) > .u-container-layout > .u-btn:hover,
         .u-btn:hover
         {
-        background-color: #387cbd;
+        background-color: white;
         color: #e6e6e6;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > .u-btn:focus,
@@ -31589,7 +31593,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-image:not(.u-shading) > .u-container-layout > .u-btn:focus,
         .u-btn:focus
         {
-        background-color: #387cbd;
+        background-color: #132433;
         color: #e6e6e6;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > .u-btn:active,
@@ -31605,7 +31609,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-image:not(.u-shading) > .u-container-layout > blockquote,
         blockquote
         {
-        border-color: #478ac9;
+        border-color: white;
         }
         /** color-rules **/
 
