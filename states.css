@@ -101,6 +101,12 @@ font-size: 1rem;
   object-position: 15% 10%;
 }
 
+/* rustic img */
+#rustic {
+  width: 30%;
+  height: auto;
+}
+
 /*Question tabs*/
 .responsiveFAQ {
   padding-left: 6%;
