@@ -38,11 +38,11 @@
   margin-right: 0;
   border: none;
   padding: 0;
-  margin-top: 8%;
+  margin-top: 1%;
 }
 .active:after {
   content: "\2796";
-  margin-top: 8%;
+  margin-top: 1%;
 }
 /*Styling for text under drop down*/
 .board {
@@ -66,7 +66,8 @@ font-size: 1.5rem;
 font-size: 1rem;
   font-family: 'Open Sans', serif !important;
   text-align: left;
-  margin-right: 3%;
+  /* margin-right: 3%; */
+  max-width: 50%;
 }
 
 /* restaurant image */
@@ -74,10 +75,30 @@ font-size: 1rem;
   padding: 3%;
 }
 
+/* restaurant website */
 .restWeb {
   text-decoration: underline;
   color: black;
   font-size: 1.25rem;
+}
+
+/* juice store img */
+#juice {
+  width: 30%;
+  height: auto;
+}
+/* doughnuts store img */
+#dough {
+  width: 30%;
+  height: auto;
+}
+
+/* pizza store img */
+#pizza {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+  object-position: 15% 10%;
 }
 
 /*Question tabs*/
@@ -85,7 +106,7 @@ font-size: 1rem;
   padding-left: 6%;
   padding-top: 8%;
   float: left;
-  width: 95%;
+  width: 75%;
 }
 
 @media only screen and (max-width: 700%) {
